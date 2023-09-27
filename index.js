@@ -9,8 +9,8 @@ const newHeader = document.createElement('h1');
 newHeader.id = "victory";
 
 // inser the text for h1 node
-newHeader.textContent = "El is the champion"
-
+// newHeader.textContent = "El is the champion"
+newHeader.innerHTML = "El is the champion"
 // Get node for where the new element to be added to, then add.
 const body = document.getElementsByTagName('body')[0];
 
