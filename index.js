@@ -28,3 +28,6 @@ for (let i = 0; i < 5; i++) {
     li.textContent = (i + 1).toString()
     ul.append(li)
 }
+
+element.style.fontSize = "42px";
+element.style.backgroundColor = "#276478"
