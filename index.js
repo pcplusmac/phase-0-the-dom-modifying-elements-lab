@@ -35,3 +35,4 @@ element.style.lineHeight = 2;
 
 element.className = "pet-listing dog";
 element. classList.remove("dog")
+element.classList.add("cat","wolf")
