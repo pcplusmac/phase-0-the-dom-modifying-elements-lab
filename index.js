@@ -16,6 +16,7 @@ const body = document.getElementsByTagName('body')[0];
 
 body.append(newHeader);
 
+// below are the code practise from phase-1
 const element = document.createElement("div");
 body.append(element);
 
@@ -36,3 +37,10 @@ element.style.lineHeight = 2;
 element.className = "pet-listing dog";
 element. classList.remove("dog")
 element.classList.add("cat","wolf")
+
+
+const fifChild = ul.querySelector("li:nth-child(5)")
+ul.removeChild(fifChild)
+
+const liFetch = document.getElementsByTagName("li")[0]
+liFetch.remove() 
