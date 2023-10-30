@@ -15,3 +15,14 @@ newHeader.innerHTML = "El is the champion"
 const body = document.getElementsByTagName('body')[0];
 
 body.append(newHeader);
+
+const element = document.createElement("div");
+body.append(element);
+
+const ul = document.createElement("ul")
+element.append(ul)
+
+const li = document.createElement("li")
+for (let i = 0; i < 5; i++) {
+    ul.append(li)
+}
