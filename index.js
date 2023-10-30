@@ -32,3 +32,6 @@ for (let i = 0; i < 5; i++) {
 element.style.fontSize = "42px";
 element.style.backgroundColor = "#276478"
 element.style.lineHeight = 2;
+
+element.className = "pet-listing dog";
+element. classList.remove("dog")
